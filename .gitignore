@@ -1,0 +1,50 @@
+# Dependências
+node_modules/
+.pnp
+.pnp.js
+
+# Build e compilação
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Arquivos temporários e caches
+tmp/
+temp/
+.cache/
+.eslintcache
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs e Editores
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.history/
+
+# VS Code (ignora arquivos locais de usuário, preservando configurações compartilhadas)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
